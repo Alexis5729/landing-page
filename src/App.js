@@ -16,8 +16,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="">
-      <div className="container">
-        <Navbar/>
+      <Navbar/>
+      <div className="container">        
         <Hero/>
         <section id='servicios'>
           <Servicios/>
@@ -35,8 +35,11 @@ function App() {
         </section>   
         <section id='testimonios'>
           <Testimonios/>
-        </section>  
+        </section>          
       </div>
+      <section id='footer'>
+          <Footer/>
+        </section>
     </div>
   );
 }
